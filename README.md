@@ -3,6 +3,10 @@
 
 This project implements a distributed vision system where a high-performance host (Laptop) performs real-time object detection and sends trigger signals to an edge device (Raspberry Pi) via **Socket Programming** for hardware actuation.
 
+### Project Presentation & Technical Setup
+This presentation covers the full end-to-end implementation, including Raspberry Pi OS imaging, YOLO environment configuration, and Socket communication architecture.
+👉 [**View Full Project Slides on Canva**](https://canva.link/2xnrl1v7azphi8u)
+
 ### Project Features
 * **Real-time YOLO Detection:** Uses YOLOv5/v11 for high-speed object identification.
 * **Monocular Distance Estimation:** Implemented a triangle similarity geometry model to estimate the distance between the camera and the object based on perceived pixel width.
